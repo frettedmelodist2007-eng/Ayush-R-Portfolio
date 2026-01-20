@@ -10,8 +10,7 @@ This project combines modern web technologies with real-time 3D graphics to crea
 
 ---
 Link
-https://portfolio-virid-mu-36.vercel.app/
-
+ayushr-portfolio.vercel.app
 ## ✨ Features
 
 * 🌌 **Animated Galaxy Background**
