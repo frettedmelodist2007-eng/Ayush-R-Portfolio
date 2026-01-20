@@ -2,7 +2,7 @@
 An interactive galaxy-themed portfolio website built with Next.js, React Three Fiber, and Three.js, featuring animated 3D visuals and GitHub project integration.
 
 
-# 🌌 Galaxy Portfolio Website
+#  Galaxy Portfolio Website
 
 A high-performance, animated **personal portfolio website** with an immersive **galaxy background**, built to showcase projects, skills, and profile in a visually engaging way.
 
@@ -13,32 +13,32 @@ Link
 
 ayushr-portfolio.vercel.app
 
-## ✨ Features
+##  Features
 
-* 🌌 **Animated Galaxy Background**
+* **Animated Galaxy Background**
   Real-time particle-based galaxy rendered using **Three.js** and **React Three Fiber**.
 
-* 🚀 **Next.js App Router Architecture**
+*  **Next.js App Router Architecture**
   Optimized for performance, SEO, and scalability.
 
-* 🧊 **Glassmorphism UI**
+*  **Glassmorphism UI**
   Clean, modern overlay interface with blur and transparency effects.
 
-* 📦 **GitHub Projects Integration**
+*  **GitHub Projects Integration**
   Automatically fetches and displays repositories from GitHub.
 
-* 🧭 **Scroll-Based Camera Animation**
+*  **Scroll-Based Camera Animation**
   Galaxy movement and camera travel mapped to user scroll for a cinematic feel.
 
-* 📱 **Responsive Design**
+*  **Responsive Design**
   Works smoothly across desktop, tablet, and mobile devices.
 
-* ⚡ **Deployed on Vercel**
+*  **Deployed on Vercel**
   Fast global CDN delivery and seamless CI/CD.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Core
 
@@ -60,7 +60,7 @@ ayushr-portfolio.vercel.app
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── app/
@@ -89,22 +89,22 @@ ayushr-portfolio.vercel.app
 
 ---
 
-## 🚀 Getting Started (Local Setup)
+##  Getting Started (Local Setup)
 
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
-### 2️⃣ Install Dependencies
+###  Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Run Development Server
+###  Run Development Server
 
 ```bash
 npm run dev
@@ -118,7 +118,7 @@ http://localhost:3000
 
 ---
 
-## 🔐 Environment Variables (Optional)
+##  Environment Variables (Optional)
 
 If using a GitHub Personal Access Token (recommended for higher rate limits):
 
@@ -136,7 +136,7 @@ Vercel Dashboard → Project Settings → Environment Variables
 
 ---
 
-## 🧪 Verification & Testing
+##  Verification & Testing
 
 ### Build Check
 
@@ -160,7 +160,7 @@ npm run lint
 
 ---
 
-## ⚠️ Known Considerations
+##  Known Considerations
 
 * Galaxy particle count is optimized for performance but may be reduced on low-end devices.
 * Three.js components are **client-only** to avoid SSR issues.
@@ -168,7 +168,7 @@ npm run lint
 
 ---
 
-## 🌍 Deployment
+##  Deployment
 
 This project is deployed using **Vercel**.
 
@@ -183,7 +183,7 @@ Vercel will automatically rebuild and publish on every push.
 
 ---
 
-## 📌 Customization Ideas
+##  Customization Ideas
 
 * Add dark/light mode toggle
 * Add project filtering
@@ -193,7 +193,7 @@ Vercel will automatically rebuild and publish on every push.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Ayush R**
 B.Tech Artificial Intelligence Student
@@ -205,11 +205,10 @@ Full-Stack Developer | Tech Enthusiast
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License**.
 Feel free to fork, modify, and build upon it.
 
 ---
 
-⭐ If you like this project, consider giving it a star!
