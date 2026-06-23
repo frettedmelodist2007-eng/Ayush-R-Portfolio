@@ -84,7 +84,7 @@ ayushr-portfolio.vercel.app
 │   └── assets/             # Static assets (icons, images)
 │
 ├── package.json
-└── README.md
+│   └── README.md
 ```
 
 ---
