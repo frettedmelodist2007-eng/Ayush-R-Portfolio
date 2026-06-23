@@ -2,20 +2,21 @@
 "use client";
 
 import Section from "./Section";
+import profile from "@/lib/profile.json";
 
 export default function Hero() {
     return (
         <Section>
             <div className="max-w-4xl">
                 <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
-                    Ayush R
+                    {profile.hero.name}
                     <span className="block text-2xl md:text-4xl text-white mt-4 font-light">
-                        Building the Future with AI
+                        {profile.hero.title}
                     </span>
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl">
-                    B.Tech Artificial Intelligence Student | Full-Stack Developer | Tech Problem Solver
+                    {profile.hero.bio}
                 </p>
 
                 <div className="flex flex-wrap gap-4">
@@ -36,3 +37,4 @@ export default function Hero() {
         </Section>
     );
 }
+

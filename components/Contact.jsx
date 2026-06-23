@@ -3,8 +3,11 @@
 
 import Section from "./Section";
 import { Mail, Phone, Github, Linkedin, Instagram, Twitter } from "lucide-react";
+import profile from "@/lib/profile.json";
 
 export default function Contact() {
+    const { contact, hero } = profile;
+
     return (
         <Section id="contact" className="min-h-[50vh]">
             <div className="text-center">
@@ -14,28 +17,33 @@ export default function Contact() {
                 </p>
 
                 <div className="flex flex-wrap justify-center gap-8 mb-16">
-                    <a href="mailto:frettedmelodist2007@gmail.com" className="flex items-center text-xl text-white hover:text-cyan-400 transition-colors">
-                        <Mail className="mr-3" /> frettedmelodist2007@gmail.com
-                    </a>
-                    <a href="tel:+918891256695" className="flex items-center text-xl text-white hover:text-cyan-400 transition-colors">
-                        <Phone className="mr-3" /> +91 8891256695
-                    </a>
+                    {contact.email && (
+                        <a href={`mailto:${contact.email}`} className="flex items-center text-xl text-white hover:text-cyan-400 transition-colors">
+                            <Mail className="mr-3" /> {contact.email}
+                        </a>
+                    )}
+                    {contact.phone && (
+                        <a href={`tel:${contact.phone.replace(/\s+/g, '')}`} className="flex items-center text-xl text-white hover:text-cyan-400 transition-colors">
+                            <Phone className="mr-3" /> {contact.phone}
+                        </a>
+                    )}
                 </div>
 
                 <div className="flex justify-center gap-8 mb-16">
-                    <SocialLink href="https://github.com/frettedmelodist2007-eng" icon={Github} />
-                    <SocialLink href="https://www.linkedin.com/in/ayush-r" icon={Linkedin} />
-                    <SocialLink href="https://www.instagram.com/fretted_melodist" icon={Instagram} />
-                    <SocialLink href="https://x.com/frettedmelodist" icon={Twitter} />
+                    {contact.github && <SocialLink href={contact.github} icon={Github} />}
+                    {contact.linkedin && <SocialLink href={contact.linkedin} icon={Linkedin} />}
+                    {contact.instagram && <SocialLink href={contact.instagram} icon={Instagram} />}
+                    {contact.twitter && <SocialLink href={contact.twitter} icon={Twitter} />}
                 </div>
 
                 <footer className="text-gray-500 pt-8 border-t border-white/10">
-                    <p>© {new Date().getFullYear()} Ayush R | Built with passion for technology and innovation</p>
+                    <p>© {new Date().getFullYear()} {hero.name} | Built with passion for technology and innovation</p>
                 </footer>
             </div>
         </Section>
     );
 }
+
 
 function SocialLink({ href, icon: Icon }) {
     return (

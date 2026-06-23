@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "name": "Ayush R",
+    "title": "Building the Future with AI",
+    "bio": "B.Tech Artificial Intelligence Student | Full-Stack Developer | Tech Problem Solver"
+  },
+  "about": {
+    "paragraphs": [
+      "I am a B.Tech Artificial Intelligence student with a strong interest in full-stack development and modern software engineering.",
+      "I enjoy building practical applications and systems that simplify complex problems through automation and clean design.",
+      "Driven by curiosity and continuous learning, I focus on creating efficient, scalable, and real-world solutions using technology."
+    ]
+  },
+  "skills": {
+    "Programming": ["Python", "C++", "JavaScript", "SQL"],
+    "Web Dev": ["HTML5/CSS3", "React.js", "Next.js", "Three.js", "WebGL"],
+    "App Dev": ["Android Development", "React Native"],
+    "Tools": ["Git & GitHub", "Linux/Bash", "REST APIs", "DSP"]
+  },
+  "services": [
+    {
+      "title": "Website Development",
+      "desc": "Frontend & Full-Stack solutions using modern frameworks like Next.js and React."
+    },
+    {
+      "title": "Android App Development",
+      "desc": "Building native and cross-platform mobile applications."
+    },
+    {
+      "title": "Multimedia Editing",
+      "desc": "Professional Video and Photo editing services."
+    }
+  ],
+  "contact": {
+    "email": "frettedmelodist2007@gmail.com",
+    "phone": "+91 8891256695",
+    "github": "https://github.com/frettedmelodist2007-eng",
+    "linkedin": "https://www.linkedin.com/in/ayush-r",
+    "instagram": "https://www.instagram.com/fretted_melodist",
+    "twitter": "https://x.com/frettedmelodist"
+  }
+}

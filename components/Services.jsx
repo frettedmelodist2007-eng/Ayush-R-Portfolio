@@ -3,22 +3,11 @@
 
 import Section from "./Section";
 
-const services = [
-    {
-        title: "Website Development",
-        desc: "Frontend & Full-Stack solutions using modern frameworks like Next.js and React."
-    },
-    {
-        title: "Android App Development",
-        desc: "Building native and cross-platform mobile applications."
-    },
-    {
-        title: "Multimedia Editing",
-        desc: "Professional Video and Photo editing services."
-    }
-];
+import profile from "@/lib/profile.json";
 
 export default function Services() {
+    const services = profile.services;
+
     return (
         <Section className="bg-black/30 backdrop-blur-sm">
             <h2 className="text-4xl md:text-6xl font-bold mb-12 text-center text-white">Services</h2>

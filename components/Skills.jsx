@@ -3,14 +3,11 @@
 
 import Section from "./Section";
 
-const skills = {
-    "Programming": ["Python", "C++", "JavaScript", "SQL"],
-    "Web Dev": ["HTML5/CSS3", "React.js", "Next.js", "Three.js", "WebGL"],
-    "App Dev": ["Android Development", "React Native"],
-    "Tools": ["Git & GitHub", "Linux/Bash", "REST APIs", "DSP"],
-};
+import profile from "@/lib/profile.json";
 
 export default function Skills() {
+    const skills = profile.skills;
+
     return (
         <Section>
             <h2 className="text-4xl md:text-6xl font-bold mb-12 text-right text-white">Skills</h2>
