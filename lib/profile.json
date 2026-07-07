@@ -1,6 +1,6 @@
 {
   "hero": {
-    "name": "Ayush R",
+    "name": "Ayush ",
     "title": "Building the Future with AI",
     "bio": "B.Tech Artificial Intelligence Student | Full-Stack Developer | Tech Problem Solver"
   },
@@ -12,10 +12,29 @@
     ]
   },
   "skills": {
-    "Programming": ["Python", "C++", "JavaScript", "SQL"],
-    "Web Dev": ["HTML5/CSS3", "React.js", "Next.js", "Three.js", "WebGL"],
-    "App Dev": ["Android Development", "React Native"],
-    "Tools": ["Git & GitHub", "Linux/Bash", "REST APIs", "DSP"]
+    "Programming": [
+      "Python",
+      "C++",
+      "JavaScript",
+      "SQL"
+    ],
+    "Web Dev": [
+      "HTML5/CSS3",
+      "React.js",
+      "Next.js",
+      "Three.js",
+      "WebGL"
+    ],
+    "App Dev": [
+      "Android Development",
+      "React Native"
+    ],
+    "Tools": [
+      "Git & GitHub",
+      "Linux/Bash",
+      "REST APIs",
+      "DSP"
+    ]
   },
   "services": [
     {
