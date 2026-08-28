@@ -1,16 +1,5 @@
 [
   {
-    "id": 1137632079,
-    "name": "Ayush-R-Portfolio",
-    "description": "An interactive galaxy-themed portfolio website built with Next.js, React Three Fiber, and Three.js, featuring animated 3D visuals and GitHub project integration.",
-    "language": "JavaScript",
-    "html_url": "https://github.com/frettedmelodist2007-eng/Ayush-R-Portfolio",
-    "homepage": "https://ayushr-portfolio.vercel.app",
-    "stargazers_count": 1,
-    "updated_at": "2026-08-26T00:54:18Z",
-    "pushed_at": "2026-08-26T00:51:49Z"
-  },
-  {
     "id": 1276159600,
     "name": "CarPricePredictorV2",
     "description": null,
@@ -18,8 +7,19 @@
     "html_url": "https://github.com/frettedmelodist2007-eng/CarPricePredictorV2",
     "homepage": null,
     "stargazers_count": 0,
-    "updated_at": "2026-06-21T16:24:43Z",
-    "pushed_at": "2026-06-21T16:24:39Z"
+    "updated_at": "2026-08-28T07:24:42Z",
+    "pushed_at": "2026-08-28T07:20:55Z"
+  },
+  {
+    "id": 1137632079,
+    "name": "Ayush-R-Portfolio",
+    "description": "An interactive galaxy-themed portfolio website built with Next.js, React Three Fiber, and Three.js, featuring animated 3D visuals and GitHub project integration.",
+    "language": "JavaScript",
+    "html_url": "https://github.com/frettedmelodist2007-eng/Ayush-R-Portfolio",
+    "homepage": "https://ayushr-portfolio.vercel.app",
+    "stargazers_count": 1,
+    "updated_at": "2026-08-27T06:31:40Z",
+    "pushed_at": "2026-08-27T06:28:56Z"
   },
   {
     "id": 1188514456,
