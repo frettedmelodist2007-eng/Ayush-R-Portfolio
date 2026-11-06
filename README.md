@@ -9,9 +9,7 @@ A high-performance, animated **personal portfolio website** with an immersive **
 This project combines modern web technologies with real-time 3D graphics to create a smooth, interactive, and professional portfolio experience.
 
 ---
-Link
-
-ayushr-portfolio.vercel.app
+Link: [https://ayushr-portfolio.vercel.app/](https://ayushr-portfolio.vercel.app/)
 
 ##  Features
 
@@ -123,7 +121,7 @@ B.Tech Artificial Intelligence Student
 Full-Stack Developer | Tech Enthusiast
 
 * GitHub: [https://github.com/frettedmelodist2007-eng](https://github.com/frettedmelodist2007-eng)
-* LinkedIn: [https://www.linkedin.com/in/ayush-r](https://www.linkedin.com/in/ayush-r)
+* LinkedIn: [https://www.linkedin.com/in/ayush-r-0ab1a5378](https://www.linkedin.com/in/ayush-r-0ab1a5378)
 * Instagram: [https://www.instagram.com/fretted_melodist](https://www.instagram.com/fretted_melodist)
 
 ---
